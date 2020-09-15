@@ -11,10 +11,10 @@
 /*Custom properties*/
 :root {
     --dark-color: #2d2c2c;
-    --purple-solid: #350a4f;
-    --purple-transparent: rgba(53, 10, 79, .7);
-    --purple-transparent-alt: rgba(53, 10, 79, .5);
-    --purple-light: #8f50fb;
+    --purple-solid: #266B23;
+    --purple-transparent: rgba(255, 255, 255, .7);
+    --purple-transparent-alt: rgba(255, 255, 255, .5);
+    --purple-light: #45FE8A;
     --yellow-solid: #fa9e2c;
     --gradient-color: linear-gradient(to right, var(--yellow-solid), var(--purple-light));
     --gradient-color-alt: linear-gradient(to right, var(--purple-light), var(--yellow-solid));
@@ -56,7 +56,7 @@ section{
   align-items: center;
 }
 .header.active{
-  background-color: var(--purple-solid);
+  background-color: white;
 }
 /*header styles*/
 .container{
@@ -85,7 +85,7 @@ section{
 }
 
 .btn-purple{
-  background-color: var(--purple-solid);
+  /* background-color: var(--purple-solid); */
 }
 
 .dots{
@@ -108,7 +108,7 @@ section{
 }
 
 .header.active{
-  background-color: var(--purple-solid);
+  /* background-color: white; */
 }
 
 /*header styles - nav*/
@@ -124,7 +124,7 @@ section{
 
 .hamburger-menu{
   font-size: 2.6rem;
-  color: #fff;
+  color: var(--dark-color);
   cursor: pointer;
   position: relative;
   z-index: 1500;
@@ -148,7 +148,7 @@ section{
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: var(--purple-solid);
+  background-color: var(--dark-color);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -170,7 +170,7 @@ section{
 
 .nav-link{
   display: block;
-  color: #fff;
+  color: var(--dark-color);
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
