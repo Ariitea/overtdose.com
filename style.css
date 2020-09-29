@@ -476,7 +476,7 @@ section{
 .footer{
   padding: 0;
   background-color: var(--purple-solid);
-  color: var(--dark-color);
+  color: #fff;
 }
 
 .footer-content-brand{
