@@ -199,7 +199,7 @@ section{
   left: 0;
   width: inherit;
   height: inherit;
-  /* background-color: var(--purple-transparent-alt); */
+  background-color: var(--purple-transparent-alt);
   z-index: -1
 }
 
