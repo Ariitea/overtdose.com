@@ -124,7 +124,7 @@ section{
 
 .hamburger-menu{
   font-size: 2.6rem;
-  color: var(--dark-color);
+  color: #fff;
   cursor: pointer;
   position: relative;
   z-index: 1500;
