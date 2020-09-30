@@ -56,7 +56,7 @@ section{
   align-items: center;
 }
 .header.active{
-  background-color: var(--purple-solid);
+  background-color: white;
 }
 /*header styles*/
 .container{
@@ -108,7 +108,7 @@ section{
 }
 
 .header.active{
-  background-color: var(--purple-solid);
+  background-color: white;
 }
 
 /*header styles - nav*/
@@ -124,7 +124,7 @@ section{
 
 .hamburger-menu{
   font-size: 2.6rem;
-  color: #44FF8A;
+  color: #fff;
   cursor: pointer;
   position: relative;
   z-index: 1500;
@@ -170,7 +170,7 @@ section{
 
 .nav-link{
   display: block;
-  color: #fff;
+  color: #44FF8A;
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -475,7 +475,7 @@ section{
 /* Footer section styles */
 .footer{
   padding: 0;
-  background-color: var(--purple-solid);
+  background-color: white;
   color: #fff;
 }
 
@@ -484,7 +484,7 @@ section{
 }
 
 .footer .paragraph{
-  color: inherit;
+  color: #4C4C4C;
 }
 
 .footer-heading{
