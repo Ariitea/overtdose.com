@@ -148,7 +148,7 @@ section{
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: var(--purple-solid);
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
