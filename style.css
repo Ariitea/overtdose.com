@@ -11,7 +11,7 @@
 /*Custom properties*/
 :root {
     --dark-color: #2d2c2c;
-    --purple-solid: #44FF8A;
+    --purple-solid: ##fff;
     --purple-transparent: rgba(53, 10, 79, .7);
     --purple-transparent-alt: rgba(53, 10, 79, .5);
     --purple-light: #8f50fb;
@@ -124,7 +124,7 @@ section{
 
 .hamburger-menu{
   font-size: 2.6rem;
-  color: #fff;
+  color: #44FF8A;
   cursor: pointer;
   position: relative;
   z-index: 1500;
