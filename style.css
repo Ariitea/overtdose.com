@@ -52,8 +52,8 @@ section{
   font-weight: bold;
   text-transform: uppercase;
   padding: .5rem 3.5rem;
-  : none;
-  -radius: 10rem;
+  border: none;
+  border-radius: 10rem;
   display: inline-flex;
   align-items: center;
   /* : 2px solid var(--purple-light); */
@@ -430,7 +430,7 @@ section{
 }
 
 .rooms-btn:hover{
-  color: var(--yellow-solid)
+  color: var(--purple-light);
 }
 
 /* Contact section styles */
@@ -525,6 +525,41 @@ section{
   margin: auto;
 }
 
+/* Cookies Section Style*/
+.cookie-container {
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background: #2f3640;
+  color: #F5F6FA;
+  padding: 32px;
+  line-height: 32px;
+  z-index: 9999;
+  transition: 400ms;
+  box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
+}
+
+.cookie-container.active {
+  bottom: 0;
+}
+
+.cookie-container a{
+  color: var(--purple-light);
+}
+
+.cookie-btn{
+  background: var(--purple-light);
+  border: 0;
+  margin: 12px;
+  padding: 12px 48px;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
 /* Media queries */
 @media screen and (min-width: 768px){
   /* Header section styles */
@@ -583,6 +618,7 @@ section{
   margin-left: 2.5rem;
   }
 }
+
 
 @media screen and (min-width: 1000px){
   section:not(.booking){
