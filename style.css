@@ -446,7 +446,7 @@ section{
   width: 100%;
   background: rgba(0,0,0,.5);
   padding: 2.5rem;
-  border-radius: 12px
+  -radius: 12px
 }
 
 
@@ -455,7 +455,7 @@ section{
   background-color: transparent;
   color: #fff;
   font-weight: normal;
-  border-bottom: 2px solid #fff;
+  -bottom: 2px solid #fff;
   padding-left: 0;
 }
 
