@@ -1,18 +1,8 @@
 //Selectors
 let header = document.querySelector(".header");
 let hamburgerMenu = document.querySelector(".hamburger-menu");
+let itemOnClick = document.querySelector("nav-item");
 
-
-window.addEventListener('scroll', function(){
-  let windowPosition = window.scrollY > 0;
-  header.classList.toggle('active', windowPosition)
-})
-
-hamburgerMenu.addEventListener('click', function() {
-  header.classList.toggle('menu-open');
-})
-
-// Cookie
 const cookieContainer = document.querySelector(".cookie-container");
 const cookieButton = document.querySelector(".cookie-btn");
 cookieButton.addEventListener("click", () => {
@@ -20,7 +10,23 @@ cookieButton.addEventListener("click", () => {
   localStorage.setItem("cookieBannerDisplayed", "true")
 });
 
+// Hamburger Menu
+window.addEventListener('scroll', function(){
+  let windowPosition = window.scrollY > 0;
+  header.classList.toggle('active', windowPosition)
+});
+
+hamburgerMenu.addEventListener('click', function() {
+  header.classList.toggle('menu-open')
+});
+
+//Hamburger Menu Down On Click
+itemOnClick.addEventListener("click", function() {
+  hamburgerMenu.classList.remove("menu-open")
+});
+
+// Cookie
 setTimeout(() => {
   if(!localStorage.getItem("cookieBannerDisplayed"))
-    cookieContainer.classList.add("active");
+    cookieContainer.classList.add("active")
 }, 2000);
