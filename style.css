@@ -447,7 +447,7 @@ section{
   width: 100%;
   background: rgba(0,0,0,.5);
   padding: 2.5rem;
-  -radius: 12px
+  border-radius: 12px
 }
 
 
