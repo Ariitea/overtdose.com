@@ -12,7 +12,7 @@ require("firebase/firestore");
 // Initialize Cloud Firestore through Firebase
 firebase.initializeApp({
   apiKey:  'AIzaSyBnKBcNE8NTWxafRvvvEwvdzr3vb7e8-sE',
-  authDomain: '333444686977',
+  authDomain: '1:333444686977:web:ee9b64d843453cd2515980',
   projectId: 'ovd-bdd'
 });
 
