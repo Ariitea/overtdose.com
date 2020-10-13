@@ -5,16 +5,17 @@ let hamburgerMenu = document.querySelector(".hamburger-menu");
 const cookieContainer = document.querySelector(".cookie-container");
 const cookieButton = document.querySelector(".cookie-btn");
 
-const firebase = require("firebase");
-// Required for side-effects
-require("firebase/firestore");
-
-// Initialize Cloud Firestore through Firebase
-firebase.initializeApp({
-  apiKey:  'AIzaSyBnKBcNE8NTWxafRvvvEwvdzr3vb7e8-sE',
-  authDomain: 'https://ovd-bdd.firebaseio.com',
-  projectId: 'ovd-bdd'
-});
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBnKBcNE8NTWxafRvvvEwvdzr3vb7e8-sE",
+  authDomain: "ovd-bdd.firebaseapp.com",
+  databaseURL: "https://ovd-bdd.firebaseio.com",
+  projectId: "ovd-bdd",
+  storageBucket: "ovd-bdd.appspot.com",
+  messagingSenderId: "333444686977",
+  appId: "1:333444686977:web:ee9b64d843453cd2515980",
+  measurementId: "G-DTLQXB5E0D"
+};
 
 var db = firebase.firestore();
 // Get a reference to the storage service, which is used to create references in your storage bucket
