@@ -9,6 +9,16 @@ const firebase = require("firebase");
 // Required for side-effects
 require("firebase/firestore");
 
+// Initialize Cloud Firestore through Firebase
+firebase.initializeApp({
+  apiKey:  'AIzaSyBnKBcNE8NTWxafRvvvEwvdzr3vb7e8-sE',
+  authDomain: 'overtdose.com',
+  projectId: 'ovd-bdd'
+});
+
+var db = firebase.firestore();
+
+
 
 // Hamburger Menu animation
 window.addEventListener('scroll', function(){
