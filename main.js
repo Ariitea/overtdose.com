@@ -5,9 +5,6 @@ let hamburgerMenu = document.querySelector(".hamburger-menu");
 const cookieContainer = document.querySelector(".cookie-container");
 const cookieButton = document.querySelector(".cookie-btn");
 
-const firebase = require("firebase");
-// Required for side-effects
-require("firebase/firestore");
 
 // Initialize Cloud Firestore through Firebase
 firebase.initializeApp({
