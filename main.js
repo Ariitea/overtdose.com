@@ -1,10 +1,6 @@
-
-
-
 //Selectors
 let header = document.querySelector(".header");
 let hamburgerMenu = document.querySelector(".hamburger-menu");
-let itemOnClick = document.querySelector("nav-item");
 
 const cookieContainer = document.querySelector(".cookie-container");
 const cookieButton = document.querySelector(".cookie-btn");
@@ -21,11 +17,6 @@ hamburgerMenu.addEventListener('click', function() {
   header.classList.toggle('menu-open')
 });
 
-//Hamburger Menu "show/hide" On Click
-itemOnClick.addEventListener('click', function(){
-  header.classList.remove('menu-open')
-});
-
 // Cookie fucntion for storage et remove banner
 cookieButton.addEventListener("click", () => {
   cookieContainer.classList.remove("active");
@@ -37,3 +28,6 @@ setTimeout(() => {
   if(!localStorage.getItem("cookieBannerDisplayed"))
     cookieContainer.classList.add("active")
 }, 2000);
+
+
+// Email Form
