@@ -5,24 +5,6 @@ let hamburgerMenu = document.querySelector(".hamburger-menu");
 const cookieContainer = document.querySelector(".cookie-container");
 const cookieButton = document.querySelector(".cookie-btn");
 
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyBnKBcNE8NTWxafRvvvEwvdzr3vb7e8-sE",
-  authDomain: "ovd-bdd.firebaseapp.com",
-  databaseURL: "https://ovd-bdd.firebaseio.com",
-  projectId: "ovd-bdd",
-  storageBucket: "ovd-bdd.appspot.com",
-  messagingSenderId: "333444686977",
-  appId: "1:333444686977:web:ee9b64d843453cd2515980",
-  measurementId: "G-DTLQXB5E0D"
-};
-
-var db = firebase.firestore();
-// Get a reference to the storage service, which is used to create references in your storage bucket
-var storage = firebase.storage("gs://ovd-bdd.appspot.com");
-
-
-
 
 // Hamburger Menu animation
 window.addEventListener('scroll', function(){
