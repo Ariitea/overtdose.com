@@ -31,3 +31,11 @@ setTimeout(() => {
 
 
 // Email Form
+function sendMail()
+{
+    var yourMessage = document.getElementById("message").value;
+    var subject = document.getElementById("selectList").value;
+    document.location.href = "mailto:contact@overtdose.com?subject="
+         + encodeURIComponent(subject)
+        + "&body=" + encodeURIComponent(yourMessage)
+};
