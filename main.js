@@ -5,6 +5,10 @@ let hamburgerMenu = document.querySelector(".hamburger-menu");
 const cookieContainer = document.querySelector(".cookie-container");
 const cookieButton = document.querySelector(".cookie-btn");
 
+const firebase = require("firebase");
+// Required for side-effects
+require("firebase/firestore");
+
 
 // Hamburger Menu animation
 window.addEventListener('scroll', function(){
