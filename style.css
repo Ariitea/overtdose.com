@@ -691,7 +691,8 @@ cursor: pointer;
       font-size: 1.3rem;
       font-weight: normal;
       transition: color .5s;
-      color: rgba(234, 71, 44, 0.7);
+      color: var(--nude-pastel);
+      opacity: 70%;
     }
     .nav-link:hover{
       color: var(--nude-pastel);
@@ -720,7 +721,7 @@ cursor: pointer;
       transform: translateX(-50%) scaleX(1);
     }
 
-    
+
     /* Hero section styles */
     .title{
       font-size: 4rem;
