@@ -697,6 +697,7 @@ cursor: pointer;
     .nav-link:hover{
       color: var(--nude-pastel);
       transition: .9s;
+      opacity: 100%;
     }
 
 
