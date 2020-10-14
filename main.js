@@ -14,8 +14,8 @@ window.addEventListener('scroll', function(){
 
 // Hamburger Menu open function
 hamburgerMenu.addEventListener('click', function() {
-  header.classList.toggle('menu-open')
-});
+  header.classList.toggle('menu-open');
+})
 
 // Cookie fucntion for storage et remove banner
 cookieButton.addEventListener("click", () => {

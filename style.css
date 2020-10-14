@@ -141,7 +141,7 @@ section {
 
 .menu-open .hamburger-menu .fa-bars {
   display: none;
-}
+} 
 
 .nav-list {
   position: fixed;
@@ -157,7 +157,7 @@ section {
   z-index: 1400;
   opacity: 0;
   transform: scale(0);
-  transition: opacity 0.5s;
+  transition: opacity .5s;
 }
 
 .menu-open .nav-list {
@@ -705,6 +705,10 @@ cursor: pointer;
       opacity: 50%;
     }
     
+    nav ul li a{
+      position: relative;
+    }
+
     nav ul li a:hover{
       color: var(--nude-pastel);
       transition: .9s;
