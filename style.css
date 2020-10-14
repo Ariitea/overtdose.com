@@ -422,6 +422,7 @@ cursor: pointer;
 
 .footer .paragraph{
   color: var(--vert-canard);
+  flex-direction: row;
 }
 
 .footer-heading{
@@ -451,7 +452,7 @@ cursor: pointer;
 
 .sm-link:hover{
   background-color: var(--orange-corail-hover);
-  color: var(--dark-color);
+  color: var(--orange-corail-hover);
 }
 
 .sm-link i{
@@ -470,7 +471,7 @@ cursor: pointer;
   bottom: -100%;
   left: 0;
   right: 0;
-  background: var(--vert-canard);
+  background: var(--nude-pastel);
   color: #F5F6FA;
   padding: 32px;
   line-height: 32px;
