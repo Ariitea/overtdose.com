@@ -524,7 +524,7 @@ cursor: pointer;
   color: #F5F6FA;
   padding: 32px;
   line-height: 32px;
-  z-index: 9999;
+  z-index: 99999;
   transition: 400ms;
   box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
 }
