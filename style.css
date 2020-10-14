@@ -414,6 +414,8 @@ cursor: pointer;
   padding: 0;
   background-color: var(--nude-pastel);
   color: var(--vert-canard);
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-gap: 2.5rem;
 }
 
 .footer-content-brand{
@@ -422,7 +424,6 @@ cursor: pointer;
 
 .footer .paragraph{
   color: var(--vert-canard);
-  flex-direction: row;
 }
 
 .footer-heading{
