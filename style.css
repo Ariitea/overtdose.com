@@ -204,33 +204,39 @@ section {
 
 .main-heading{
     color: var(--nude-pastel);
-    line-height: 1;
-    margin-bottom: 2.5rem;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 1.06px;
+    margin-bottom: 0.3rem;
     padding-top: 26rem;
   }
 
 .subtitle-heading{
-    margin-top: 3%;
+    margin-top: 0;
     font-size: 2.7rem;
     margin-bottom: 2.5rem;
     display: flex;
 }
 
 .scroll{
-    height: 10px;
+    width: 42px;
+    height: 42px;
     text-align: center;
     bottom: 5%;
     left: 50%;
-    font-size: 4rem;
+    font-size: 2rem;
     color: white;
     transform: rotate(90deg);
     position: absolute;
     font-family: Arial, Helvetica;
     font-weight: bold;
-    border-radius: 50%;
-    border-width: 3rem;
-    border: 2px white;
+    border-radius: 21px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
     cursor: pointer;
+    background-color: transparent;
+    line-height: 33px;
 }
 
 .scroll:hover{
@@ -330,6 +336,11 @@ cursor: pointer;
     padding-top: 2.4rem;
     font-size: 2.6rem;
     margin-right: 0;
+    font-family: 'Secular One';
+    font-weight: regular;
+    font-size: 21px;
+    line-height: 40px;
+    letter-spacing: 0.55px;
 }
 
 
