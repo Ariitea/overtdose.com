@@ -451,8 +451,8 @@ cursor: pointer;
 }
 
 .sm-link:hover{
-  background-color: var(--orange-corail-hover);
-  color: var(--orange-corail-hover);
+  background-color: var(--vert-canard);
+  color: var(--nude-pastel);
 }
 
 .sm-link i{
