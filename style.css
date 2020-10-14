@@ -692,7 +692,7 @@ cursor: pointer;
       font-weight: normal;
       transition: color .5s;
       color: var(--nude-pastel);
-      opacity: 70%;
+      opacity: 50%;
     }
     .nav-link:hover{
       color: var(--nude-pastel);
