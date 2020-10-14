@@ -613,6 +613,12 @@ cursor: pointer;
     .header.active{
     height: 6rem;
     }
+
+    .hamburger-menu{
+      background-color: var(--vert-canard);
+      color: var(--nude-pastel);
+    }
+
     /* Hero section styles */
     .title{
         font-size: 8rem;
@@ -694,7 +700,8 @@ cursor: pointer;
       color: var(--nude-pastel);
       opacity: 50%;
     }
-    .nav-link:hover{
+    
+    nav ul li a:hover{
       color: var(--nude-pastel);
       transition: .9s;
       opacity: 100%;
