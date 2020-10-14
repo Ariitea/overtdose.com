@@ -619,6 +619,10 @@ cursor: pointer;
       color: var(--nude-pastel);
     }
 
+    .hamburger-menu .fa-times{
+      background-color: var(--nude-pastel);
+    }
+
     /* Hero section styles */
     .title{
         font-size: 8rem;
