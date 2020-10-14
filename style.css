@@ -337,7 +337,6 @@ cursor: pointer;
 
 /*contact styles*/
 .contact{
-    background: url(./images/hero_background04.svg) center no-repeat;
     border: none;
     background-size: 58%;
     background-position-x: 20%;
@@ -353,13 +352,11 @@ cursor: pointer;
 
 .contact-content{
   display: flex;
-  justify-content: center;
-  margin-top: 3%;
 }
 
-/* .traveler-wrap{
-  display: none;
-} */
+ .traveler-wrap{
+  background: url(./images/hero_background04.svg) center no-repeat;
+} 
 
 .contact-form{
     width: 40%;
