@@ -179,6 +179,59 @@ section {
   padding: 1rem;
 }
 
+/* nav a{
+  color: #fdc598;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+} 
+
+nav .animation{
+  position: absolute;
+  height: 13px;
+  top: 50%;
+  z-index: 0;
+  background: var(--orange-corail);
+  width: 100px;
+  border-radius: 8px;
+}
+
+a:nth-child(1){
+  width: 100%;
+}
+
+nav .start-home, a:nth-child(1):hover~.animation{
+  width: 100px;
+  left: 0;
+}
+
+a:nth-child(2){
+  width: 100px;
+}
+
+nav .start-home, a:nth-child(2):hover~.animation{
+  width: 100px;
+  left: 200px;
+}
+
+a:nth-child(3){
+  width: 100px;
+}
+
+nav .start-home, a:nth-child(3):hover~.animation{
+  width: 100px;
+  left: 300px;
+}
+
+a:nth-child(4){
+  width: 100px;
+}
+
+nav .start-home, a:nth-child(4):hover~.animation{
+  width: 100px;
+  left: 400px;
+} */
+
 /*Hero section styles*/
 .hero{
     width: 100%;
