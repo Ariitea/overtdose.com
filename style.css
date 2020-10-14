@@ -466,6 +466,7 @@ cursor: pointer;
   width: 100%;
   background: var(--nude-pastel);
   color: #063d3c;
+  background-position-y: center;
 }
 .main-content{
   display: flex;
@@ -483,15 +484,19 @@ cursor: pointer;
 .left-box{
   margin-top: 15;
   margin-left: 50px;
+  font-family: -apple-system;
+  font-weight: normal;
 }
 
 .left-box h2{
-  margin-left: 100px;
+  margin-left: 140px;
 }
 
 .left-center .content{
   margin-top: 30px;
-  margin-left: 20px;
+  margin-left: 0;
+  font-family: -apple-system;
+  font-weight: normal;
 }
 
 .brand-wrap{
@@ -502,8 +507,7 @@ cursor: pointer;
 
 .right-center .content{
   padding: 10px 0 0 0;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 15px 100px 15px 100px ;
   font-weight: lighter;
   font-size: 15px;
   text-align: center;
@@ -521,7 +525,7 @@ cursor: pointer;
 }
 
 .right-box{
-  margin-top: 15px;
+  margin: 15px 0 15px ;
 }
 
 .right-box .content{
@@ -534,12 +538,12 @@ cursor: pointer;
 }
 
 .right-box .content .social-media a span{
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   background:transparent;
-  line-height: 40px;
+  line-height: 26px;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   border-radius: 50%;
   border: 2px solid var(--vert-canard);
   align-items: center;
@@ -559,7 +563,10 @@ cursor: pointer;
   margin: auto;
 }
 
-
+.right-box .content .social-media a span:hover{
+  background-color: var(--vert-canard);
+  color: var(--nude-pastel);
+}
 
 
 
