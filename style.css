@@ -691,10 +691,36 @@ cursor: pointer;
       font-size: 1.3rem;
       font-weight: normal;
       transition: color .5s;
+      color: rgba(234, 71, 44, 0.7);
     }
     .nav-link:hover{
-      color: var(--yellow-solid);
+      color: var(--nude-pastel);
+      transition: .9s;
     }
+
+
+    nav ul li a:after{
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%) scaleX(0);
+      -webkit-transform: translateX(-50%) scaleX(0);
+      -webkit-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+      width: 100%;
+      height: 2px;
+      background-color: var(--orange-corail);
+      -webkit-transition: transform 250ms;
+      transition: transform 250ms;
+    }
+
+    nav ul li a:hover:after{
+      -webkit-transform: translateX(-50%) scaleX(1);
+      transform: translateX(-50%) scaleX(1);
+    }
+
+    
     /* Hero section styles */
     .title{
       font-size: 4rem;
