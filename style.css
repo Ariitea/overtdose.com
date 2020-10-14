@@ -451,41 +451,6 @@ cursor: pointer;
 
 
 
-/* Cookies Section Style*/
-.cookie-container {
-  position: fixed;
-  bottom: -100%;
-  left: 0;
-  right: 0;
-  background: var(--nude-pastel);
-  color: #F5F6FA;
-  padding: 32px;
-  line-height: 32px;
-  z-index: 9999;
-  transition: 400ms;
-  box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
-  }
-
-.cookie-container.active {
-  bottom: 0;
-  }
-
-.cookie-container a{
-  color: white;
-  }
-
-.cookie-btn{
-  background: var(--orange-corail);
-  border: 0;
-  margin: 12px;
-  padding: 12px 48px;
-  font-size: 18px;
-  margin-bottom: 16px;
-  border-radius: 8px;
-  cursor: pointer;
-  }
-
-
 
 
   /* Media queries */
