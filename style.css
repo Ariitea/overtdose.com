@@ -478,12 +478,6 @@ cursor: pointer;
   font-family: -apple-system, thin ;
 }
 
-.box h2{
-  /* font-size: 1.125rem;
-  font-weight: 600;
-  text-transform: uppercase; */
-}
-
 .box .content{
   margin: 20px 0 0 0;
 }
@@ -664,11 +658,6 @@ cursor: pointer;
     margin-left: 2.5rem;
     align-items: center;
     justify-content: center;
-    }
-
-    .nettoyer-btn{
-      /* width: 270px;
-      height: 270px; */
     }
   }
 
