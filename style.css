@@ -587,13 +587,9 @@ cursor: pointer;
       font-weight: bold;
     }
 
-
     /* Header section styles */
-    .header{
-      height: 10rem;
-    }
     .header.active{
-    height: 6rem;
+      height: 6rem;
     }
 
     .hamburger-menu{

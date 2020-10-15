@@ -1,6 +1,7 @@
 //Selectors
 let header = document.querySelector(".header");
 let hamburgerMenu = document.querySelector(".hamburger-menu");
+let menuLinks = document.querySelector(".nav-link")
 
 const cookieContainer = document.querySelector(".cookie-container");
 const cookieButton = document.querySelector(".cookie-btn");
@@ -16,6 +17,14 @@ window.addEventListener('scroll', function(){
 hamburgerMenu.addEventListener('click', function() {
   header.classList.toggle('menu-open');
 })
+
+// Hamburger Menu away when click for each links
+menuLinks.forEach( 
+  function(menuLink) { 
+    menuLink.addEventListener("click", toggleHamburger) 
+  }
+);
+
 
 // Cookie fucntion for storage et remove banner
 cookieButton.addEventListener("click", () => {
