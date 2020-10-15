@@ -654,7 +654,7 @@ cursor: pointer;
     }
     /* Footer section styles */
     .footer{
-      margin-bottom: 0;
+      bottom: 0;
     }
 
     .footer-content{
@@ -663,7 +663,6 @@ cursor: pointer;
       justify-content: space-between;
     }
     .footer-content-brand{
-      margin-bottom: 0;
       flex: 0 0 60%;
     }
     .footer .left-box{
@@ -789,6 +788,11 @@ cursor: pointer;
       flex-direction: row;
       align-items: center;
       justify-content: center;
+    }
+
+    .left-center{
+      padding-top: 0px;
+      padding-left: 10px;
     }
     
 
