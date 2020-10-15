@@ -467,12 +467,12 @@ cursor: pointer;
   font-weight: normal;
 }
 
-.left-box h2{
+.left-box h3{
   padding-bottom: 5px;
 }
 
 .left-center .content{
-  padding-top: 50px;
+  padding-top: 45px;
   padding-left: 10px;
   font-family: -apple-system;
   font-weight: normal;
@@ -499,7 +499,7 @@ cursor: pointer;
 
 .right-box{
   margin: 15px 0 15px ;
-  text-align: left;
+  text-align: center;
 }
 
 .right-box .content{
