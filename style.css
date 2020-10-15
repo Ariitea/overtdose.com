@@ -242,6 +242,10 @@ section {
 .scroll:hover{
     border-color: var(--nude-pastel);
     color: var(--nude-pastel);
+    -webkit-transform: rotate(450deg);
+    transform: rotate(450deg);
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 
