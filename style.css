@@ -26,7 +26,6 @@ html {
 
 body {
   font-family: "Secular One";
-  font-size: 1.6rem;
   color: white;
   background-color: var(--vert-canard);
 }
@@ -204,7 +203,7 @@ section {
 
 .main-heading{
     color: var(--nude-pastel);
-    font-size: 40px;
+    /* font-size: 40px; */
     line-height: 50px;
     letter-spacing: 1.06px;
     margin-bottom: 0.3rem;
@@ -267,11 +266,10 @@ section {
   z-index: 0;
 }
 .offer-content{
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); */
   grid-gap: 2.5rem;
   justify-items: center;
-  margin-top: 125px;
-
+  align-items: center;
 }
 
 .nettoyer-btn{
@@ -281,7 +279,6 @@ position: relative;
 background-color: rgba(255, 255, 255, 0);
 background-image: url("./images/icon__clean.svg");
 border: none;
-margin-left: 90px;
 cursor: pointer;
 }
 
@@ -317,10 +314,8 @@ cursor: pointer;
     background: url(./images/hero_background02.svg) center no-repeat;
     border: none;
     background-size: 58%;
-    display: flex;
+    display: flex;    
     margin-left: 0;
-    align-items: right;
-    justify-content: relative;
     position: relative;
     z-index: 0;
     text-align: right;
@@ -329,10 +324,14 @@ cursor: pointer;
     width: 100%;
 }
 
+.about .container{
+  align-items: right;
+  justify-content: center;
+}
+
 .section-head{
     color: var(--nude-pastel);
     line-height: 1;
-    font-size: 5.8rem;
     margin-right: 0;
 }
 
@@ -374,7 +373,7 @@ cursor: pointer;
 } 
 
 .contact-form{
-    width: 40%;
+    width: 100%;
     background: var(--nude-pastel);
     padding: 2.5rem;
     border-radius: 12px;
@@ -443,20 +442,23 @@ cursor: pointer;
   justify-content: center;
 }
 
+.left{
+  display: flex;
+  flex-direction: row;
+}
+
 .left-box{
-  margin-top: 15;
-  margin-left: 50px;
   font-family: -apple-system;
   font-weight: normal;
 }
 
 .left-box h2{
-  margin-left: 140px;
+  padding-bottom: 5px;
 }
 
 .left-center .content{
-  margin-top: 30px;
-  margin-left: 0;
+  padding-top: 50px;
+  padding-left: 10px;
   font-family: -apple-system;
   font-weight: normal;
 }
@@ -477,9 +479,9 @@ cursor: pointer;
 }
 
 .box h2{
-  font-size: 1.125rem;
+  /* font-size: 1.125rem;
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform: uppercase; */
 }
 
 .box .content{
@@ -488,6 +490,7 @@ cursor: pointer;
 
 .right-box{
   margin: 15px 0 15px ;
+  text-align: left;
 }
 
 .right-box .content{
@@ -508,10 +511,6 @@ cursor: pointer;
   font-size: 1.8rem;
   border-radius: 50%;
   border: 2px solid var(--vert-canard);
-  align-items: center;
-  justify-items: center;
-  background-position-y: center;
-  background-position-x: center;
   margin-right: 1rem;
   transition: background-color .5;
 }
@@ -593,9 +592,31 @@ cursor: pointer;
     }
 
     /* Hero section styles */
-    .title{
-        font-size: 8rem;
+    .main-heading{
+        font-size: 21px;
     }
+    .sub-title{
+      font-size: 15px;
+    }
+    .arrow{
+      display: none;
+    }
+
+    /* Services section styles */
+    .services .container{
+      resize: 40%;
+      flex-direction: column;
+    }
+
+    /* About section styles */
+    .about{
+      flex-direction: column;
+    }
+
+    .section-head{
+      font-size: 21px;
+    }
+
     /* Contact section styles */
     .contact-content{
       justify-content: space-between;
@@ -623,13 +644,14 @@ cursor: pointer;
     /* Footer section styles */
     .footer-content{
       display: flex;
+      flex-direction: column;
       justify-content: space-between;
     }
     .footer-content-brand{
       margin-bottom: 0;
       flex: 0 0 60%;
     }
-    .footer .paragraph{
+    .footer .left-box{
       margin-top: 2.5rem;
     }
     .footer-heading{
@@ -638,7 +660,15 @@ cursor: pointer;
 
     .social-media-wrap{
     flex: 0 0 40%;
+    flex-direction: column;
     margin-left: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .nettoyer-btn{
+      /* width: 270px;
+      height: 270px; */
     }
   }
 
@@ -711,43 +741,43 @@ cursor: pointer;
 
     /* Hero section styles */
     .title{
-      font-size: 4rem;
+      font-size: 41px;
     }
     .sub-title{
       font-size: 1.3rem;
     }
 
-    /* Booking section styles */
-    .booking .form{
-      display: flex;
-      justify-content: space-between;
-    }
-    .booking .form .input-group{
-      margin-bottom: 0;
-    }
-    .booking .form .input-group:first-child{
-      flex: 0 0 20%;
-    }
-    .input,
-    .options{
-      min-width: 10rem;
-    }
-    /* Rooms section styles */
-    .rooms-grid{
+    /* Services section styles */
+    .offer-content{
       grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
-      grid-gap: 8rem;
-    }
-    .featured-rooms{
+      grid-gap: 4-8rem;
       flex-direction: row;
-      align-items: flex-start;
     }
-    .room-info-wrap{
-      margin-left: 1.5rem;
+
+    /* About Section styles */
+    .about{
+      flex-direction: row;
     }
+
+    .section-head{
+      font-size: 5.8rem;
+    }
+
+    .nettoyer-btn{
+      width: 317px;
+      height: 245px;
+    }
+
+    .footer{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+    
+
   }
 
   @media screen and (min-width: 1200px){
-    .book-form .input-group:first-child{
-      flex: 0 0 30%;
-    }
+    
 }
