@@ -264,7 +264,7 @@ section {
 .services{
   background: url(./images/hero_background03.svg) center no-repeat;
   border: none;
-  background-size: 98%;
+  background-size: 85%;
   display: flex;
   justify-content: relative;
   position: relative;
