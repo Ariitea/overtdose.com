@@ -444,9 +444,11 @@ justify-content: center;
   background: var(--nude-pastel);
   color: #063d3c;
   background-position-y: center;
+  
 }
 .main-content{
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
