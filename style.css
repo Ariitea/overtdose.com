@@ -605,7 +605,7 @@ p{
   align-items: center;
   justify-content: center;
 }
-h3{
+.articles-policy h3{
   color: var(--nude-pastel);
 }
 
