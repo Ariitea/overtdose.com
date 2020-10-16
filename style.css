@@ -1,6 +1,6 @@
-/*Import the fonts used*/
+/* Import the fonts used */
 @import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans:400,800&display=swap');
-/*Basic reset*/
+/* Basic reset */
 *,
 *::before,
 *::after {
@@ -8,7 +8,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*Custom properties*/
+/* Custom properties */
 :root {
   --orange-corail: #ea472c;
   --orange-corail-hover: rgba(234, 71, 44, 0.7);
@@ -18,7 +18,7 @@
   --vert-canard-transparent: rgba(6, 61, 60, 0.63);
   --vert-canard-transparent-alt: rgba(170, 227, 208, 0.6);
 }
-/*Global styles*/
+/* Global styles */
 html {
   font-size: 10px;
   scroll-behavior: smooth;
@@ -67,7 +67,7 @@ section {
 
 
 
-/*Titles styles*/
+/* Titles styles */
 .section-head{
   text-align: center;
   margin-bottom: 5rem;
@@ -88,7 +88,7 @@ section {
 
 
 
-/*header styles*/
+/* Header styles */
 .container {
     width: 100%;
     max-width: 120rem;
@@ -104,7 +104,7 @@ section {
 
 
 
-/*header styles*/
+/* eader styles */
 .header {
   width: 100%;
   height: 6rem;
@@ -186,7 +186,7 @@ section {
 
 
 
-/*Hero section styles*/
+/* Hero section styles */
 .hero{
     width: 100%; 
     height: 100vh;
@@ -253,7 +253,7 @@ section {
 
 
 
-/*Actions section styles*/
+/* Actions section styles */
 .services{
   background: url(./images/hero_background03.svg) center no-repeat;
   border: none;
@@ -350,7 +350,7 @@ justify-content: center;
 
 
 
-/*contact styles*/
+/* Contact styles */
 .contact{
   border: none;
   display: flex;
