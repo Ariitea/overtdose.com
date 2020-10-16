@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, user-scale=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
         <meta http-equiv="X-UA-Compatible:" content="ie=edge">
 
         <title>O'vert dose</title>
@@ -21,6 +21,11 @@
         <!-- Whatsapp Widget -->
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
         <div class="elfsight-app-0e9e8d11-08f6-4e5b-97e0-d4684852a97e"></div>
+
+        <!-- Firebase -->
+        <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
+
 
       </head>
 
@@ -64,12 +69,12 @@
             </h1>
           </div>
           <div class="subtitle-heading">
-            <p class="subtitle">Optez pour une mise à jour
+            <p class="subtitle">Optez pour une mise à jour 
               <br>de votre lieux de vie.
             </p>
-          </div>
-            <a href="#Contact" class="btn btn-gradient">Faire un don
-            </a>
+          </div> 
+            <button href="#Contact" class="btn btn-gradient">Faire un don
+            </button>
             <div class="scroll_down">
               <a href="#NosActions" class="scroll">→
               </a>
@@ -114,19 +119,19 @@
           </h5>
           <div class="contact-content">
             <div class="traveler-wrap">
-              <img src="./images/" alt="">
+              <!-- <img src="./images/" alt=""> -->
             </div>
             <form action="" class="form contact-form">
               <div class="input-group-wrap">
 
                   <!-- Name form -->
                 <div class="input-group">
-                  <input type="text" class="input" placeholder="Nom" required>
+                  <input id="name" type="text" class="input" placeholder="Nom" required>
                     <span class="bar"></span>
                   </div>
                   <!-- Email form -->
                 <div class="input-group">
-                  <input type="email" class="input" placeholder="E-mail" required>
+                  <input id="mail" type="email" class="input" placeholder="E-mail" required>
                     <span class="bar"></span>
                 </div>
               </div>
@@ -212,7 +217,6 @@
     </div>
 
     <!-- Maintenance Function -->
-
         <!-- <script>
 
         function pageRedirect() {
@@ -221,30 +225,15 @@
       setTimeout("pageRedirect()");
 
         </script> -->
-
+    <script src="main.js"></script>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+    <script src="/__/firebase/7.23.0/firebase-app.js"></script>
 
     <!-- TODO: Add SDKs for Firebase products that you want to use
-        https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-analytics.js"></script>
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.23.0/firebase-analytics.js"></script>
 
-    <script>
-      // Your web app's Firebase configuration
-      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-      var firebaseConfig = {
-        apiKey: "AIzaSyBnKBcNE8NTWxafRvvvEwvdzr3vb7e8-sE",
-        authDomain: "ovd-bdd.firebaseapp.com",
-        databaseURL: "https://ovd-bdd.firebaseio.com",
-        projectId: "ovd-bdd",
-        storageBucket: "ovd-bdd.appspot.com",
-        messagingSenderId: "333444686977",
-        appId: "1:333444686977:web:ee9b64d843453cd2515980",
-        measurementId: "G-DTLQXB5E0D"
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-      firebase.analytics();
-    </script>
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
    </body>
 </html>
