@@ -532,9 +532,9 @@ justify-content: center;
   color: var(--nude-pastel);
 }
 
-.left .content .social-media i{
-  margin: auto;
-}
+/* .left .content .social-media i{
+  /* margin: auto; */
+
 
 .right-box .content .social-media a span:hover{
   background-color: var(--vert-canard);
