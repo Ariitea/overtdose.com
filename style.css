@@ -104,7 +104,7 @@ section {
 
 
 
-/* eader styles */
+/* Header styles */
 .header {
   width: 100%;
   height: 6rem;
@@ -309,16 +309,12 @@ cursor: pointer;
 
 /* About section styles */
 .about{
-  background: url(./images/hero_background02.svg) center no-repeat;
   border: none;
-  background-size: 58%;
   display: flex;    
   margin-left: 0;
   position: relative;
   z-index: 0;
   text-align: right;
-  background-position-x: left;
-  background-position-y: 270px;
   height: 100vh;
   width: 100%;
   align-items: center;
@@ -373,42 +369,45 @@ justify-content: center;
   background-position-y: 80%;
 }
 .contact-form{
-    width: 100%;
-    background: var(--nude-pastel);
-    padding: 2.5rem;
-    border-radius: 12px;
-  }
-  .contact-form .input{
-    display: block;
-    background-color: transparent;
-    color: var(--vert-canard);
-    font-weight: normal;
-    border-width: 2px;
-    border-color: var(--vert-canard);
-    border-radius: 4px;
-    padding: 0.5rem;
-    margin-top: 1.2rem;
-    width: 100%;
-  }
-  .bar{
-    display: block;
-    position: relative;
-  }  
-  .bar::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 3px;
-    background-color: var(--nude-pastel);
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform .5s;
-  }
-  .contact-form .input:forcus + .bar::after{
-    transform: scaleX(1);
-  }
+  width: 100%;
+  display: flexbox;
+  background: var(--nude-pastel);
+  padding: 2.5rem;
+  border-radius: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.contact-form .input{
+  display: block;
+  background-color: transparent;
+  color: var(--vert-canard);
+  font-weight: normal;
+  border-width: 2px;
+  border-color: var(--vert-canard);
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin-top: 1.2rem;
+  width: 100%;
+}
+.bar{
+  display: block;
+  position: relative;
+}  
+.bar::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--nude-pastel);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .5s;
+}
+.contact-form .input:forcus + .bar::after{
+  transform: scaleX(1);
+}
 
 
 
